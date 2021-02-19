@@ -11,7 +11,11 @@ public class UserRegistration {
 		System.out.println("E-Mail: " + Pattern.matches("^[a-zA-Z0-9]{3,}([.]{1}+[a-zA-Z0-9]{3,})*[@]{1}[a-zA-Z0-9]{2,}[.]{1}[a-zA-Z0-9]{2,}([.]{1}[a-zA-Z0-9]{2,})*$", email));
 		// 91 followed by space followed by 10 digit number
 		System.out.println("Mobile Number: " + Pattern.matches("^[9][1][\s][6-9][0-9]{9}$", mobile));
+<<<<<<< HEAD
 		// minimum 8 characters and 1 upper case required
+=======
+		// minimum 8 characters and 1 numeric digit required
+>>>>>>> UC7
 		System.out.println("Password: " + Pattern.matches("^[a-zA-Z0-9]{8,}$", password));
 	}
 	public static void main(String[] args) {
